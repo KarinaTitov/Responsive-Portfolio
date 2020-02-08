@@ -1,0 +1,186 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#main-section {
+    width: ;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding-top: 20px ;
+    border-bottom: solid #cccccc 2.5px;
+    
+}
+body {
+    margin: 0 0 50px; /* bottom = footer height */
+}
+
+/* header */
+
+.container {
+ width: 960px;
+ margin: auto;
+ overflow: hidden;
+ padding-top: 20px;
+
+}
+
+header #main-section{
+    background: #ffffff ;
+    border-bottom: #cccccc;
+    width: 1024px;
+    border: 0 0 0 0;
+}
+
+header #name {
+    float: left;
+    background-color: #4aaaa5 ;
+    width: 240px;
+    height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+}
+ header #name h1{
+     margin: 0;
+     margin-top: 10px;
+ }
+
+header a{
+     color: #777777 ;
+     text-decoration: none;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 20px;
+}
+
+
+body {
+    background-image: url("https://images.homedepot-static.com/productImages/57123181-f592-47dd-b52f-976243876046/svn/wall-vision-wallpaper-2827-7173sam-64_600.jpg");
+    margin: auto;
+  
+}
+
+#about-me{
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: solid lightgray 2.5px;
+    width: 860px;
+    margin: auto;
+}
+
+.container2{
+    width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border: solid lightgray 1px;
+}        
+
+
+#main-bio
+#image {
+    float: left;
+    padding: 20px;
+   
+    
+}
+
+#main-bio {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 2.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    
+
+}
+
+#image {
+    margin-right: 20px;
+}
+
+
+
+ h3{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    
+}
+
+ #bottom_footer {
+      text-align: center;
+      background-color: #777777;
+      padding: 28px 0 0 0;
+      border-top: solid #4aaaa5 5px;
+      font-size: 12px;
+      color: #ffffff;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 27px;
+      width: 100%;
+}
+
+
+
+@media ( max-width: 640px){
+body{
+    width: 100%;
+    position: static;
+}
+
+.container{
+    width: 100%;
+    padding-top: 0;
+}
+nav{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: unset;    
+}
+
+ul{
+    padding-left: 179px;
+}
+.container2{
+    width: 620px;
+}
+#main-section{
+        width: 100%;
+        padding: 0;
+     }
+div#name{
+     width:640px;
+     margin: 0;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+#about-me{
+     width: 560px;
+ }
+
+footer{
+    
+}
+}
