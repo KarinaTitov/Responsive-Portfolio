@@ -141,7 +141,9 @@ input{
     border: solid lightgray 1px;
     margin: auto;
 }
-#message {
+
+
+textarea {
 
     width: 900px;
     height: 190px;

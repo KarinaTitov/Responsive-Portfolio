@@ -9,6 +9,9 @@
   <meta name="author" content="Karina Titov">
   <title>Karina Titov | Contact</title>
   <link rel="stylesheet" href="assets/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -39,18 +42,24 @@
 
       <section id="Forms">
 
-        <form>
+        <form action="https://formspree.io/titovkarina@gmail.com" method="POST">
 
           <p id="formP">Name</p>
-          <input type="Name" placeholder="John Smith" />
+          <input type="Name" name="name" class="name" placeholder=" John Smith" />
 
 
           <p id="formP">Email</p>
-          <input type="email" placeholder="example@gmail.com" />
+          <input type="email" name="email" class="email" placeholder=" example@gmail.com" />
 
           <p id="formP">Message</p>
-          <input type="message" id="message" />
+          <textarea class="message" name="message"></textarea>
           <br /><br />
+
+
+          <div class="status">
+
+
+          </div>
 
 
           <button type="submit" class="button">Submit</button>
