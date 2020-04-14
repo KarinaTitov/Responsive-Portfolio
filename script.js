@@ -2,7 +2,7 @@ console.log("works")
 
 $(document).ready(function () {
     $(".button").click(function (event) {
-        event.preventDefault();
+       //  event.preventDefault();
         console.log("clicked");
         
 

@@ -259,8 +259,8 @@ h3{
      }
 
      #main-container{
-         width: 600px;
-        margin: auto;
+         width: 100%;
+        margin: 0;
     }
     #main-section{
         height: 110px;
@@ -269,6 +269,7 @@ h3{
      .main-bio{
          width: 100%;
          max-width: 560px;
+         padding: 0;
      }
 
      div#name{
@@ -282,8 +283,9 @@ h3{
      }
 
      header nav{
+         margin: auto;
          margin-top: 0;
-         margin-right: 180px;
+         margin-right: 10%;
      }
 
      .image{
