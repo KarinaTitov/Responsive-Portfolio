@@ -1,2 +1,7 @@
 # Responsive-Portfolio
-responsive portfolio without using bootstrap
+
+### Technologies used
+* HTML5
+* CSS3
+
+***also used media queries to make it any screen responsive***
